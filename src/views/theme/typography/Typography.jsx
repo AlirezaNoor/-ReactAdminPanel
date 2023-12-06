@@ -1,3 +1,4 @@
+/// این برای بخش تایپو گرافی است که در سایئدبار فرار دارد
 import React from 'react'
 import { CCard, CCardHeader, CCardBody } from '@coreui/react'
 import { DocsLink } from 'src/components'
@@ -7,19 +8,19 @@ const Typography = () => {
     <>
       <CCard className="mb-4">
         <CCardHeader>
-          Headings
+          سرفصل ها
           <DocsLink href="https://coreui.io/docs/content/typography/" />
         </CCardHeader>
         <CCardBody>
           <p>
-            Documentation and examples for Bootstrap typography, including global settings,
-            headings, body text, lists, and more.
+            مستندات و نمونه هایی برای تایپوگرافی بوت استرپ، از جمله تنظیمات جهانی،
+            سرفصل‌ها، متن اصلی، فهرست‌ها و موارد دیگر.
           </p>
           <table className="table">
             <thead>
               <tr>
-                <th>Heading</th>
-                <th>Example</th>
+                <th>سرفصل ها</th>
+                <th>مثال ها</th>
               </tr>
             </thead>
             <tbody>
@@ -30,7 +31,7 @@ const Typography = () => {
                   </p>
                 </td>
                 <td>
-                  <span className="h1">h1. Bootstrap heading</span>
+                  <span className="h1"> h1هدر از نوع  </span>
                 </td>
               </tr>
               <tr>
@@ -40,7 +41,7 @@ const Typography = () => {
                   </p>
                 </td>
                 <td>
-                  <span className="h2">h2. Bootstrap heading</span>
+                  <span className="h2">h2.هدر از نوع </span>
                 </td>
               </tr>
               <tr>
@@ -50,7 +51,7 @@ const Typography = () => {
                   </p>
                 </td>
                 <td>
-                  <span className="h3">h3. Bootstrap heading</span>
+                  <span className="h3">h3. هدر از نوع </span>
                 </td>
               </tr>
               <tr>
@@ -60,7 +61,7 @@ const Typography = () => {
                   </p>
                 </td>
                 <td>
-                  <span className="h4">h4. Bootstrap heading</span>
+                  <span className="h4">h4. هدر از نوع </span>
                 </td>
               </tr>
               <tr>
@@ -70,7 +71,7 @@ const Typography = () => {
                   </p>
                 </td>
                 <td>
-                  <span className="h5">h5. Bootstrap heading</span>
+                  <span className="h5">h5. هدر از نوع </span>
                 </td>
               </tr>
               <tr>
@@ -80,7 +81,7 @@ const Typography = () => {
                   </p>
                 </td>
                 <td>
-                  <span className="h6">h6. Bootstrap heading</span>
+                  <span className="h6">h6.هدر از نوع </span>
                 </td>
               </tr>
             </tbody>
@@ -88,53 +89,53 @@ const Typography = () => {
         </CCardBody>
       </CCard>
       <CCard className="mb-4">
-        <CCardHeader>Headings</CCardHeader>
+        <CCardHeader>سر فصل ها</CCardHeader>
         <CCardBody>
           <p>
-            <code className="highlighter-rouge">.h1</code> through
+            <code className="highlighter-rouge">.h1</code> از طریق
             <code className="highlighter-rouge">.h6</code>
-            classes are also available, for when you want to match the font styling of a heading but
-            cannot use the associated HTML element.
+            کلاس ها نیز در دسترس هستند، برای زمانی که می خواهید سبک فونت یک عنوان را مطابقت دهید
+            نمی تواند از عنصر HTML مرتبط استفاده کند.
           </p>
           <div className="bd-example">
-            <p className="h1">h1. Bootstrap heading</p>
-            <p className="h2">h2. Bootstrap heading</p>
-            <p className="h3">h3. Bootstrap heading</p>
-            <p className="h4">h4. Bootstrap heading</p>
-            <p className="h5">h5. Bootstrap heading</p>
-            <p className="h6">h6. Bootstrap heading</p>
+            <p className="h1">h1.  عنوان بوت استرپ</p>
+            <p className="h2">h2. عنوان بوت استرپ</p>
+            <p className="h3">h3. عنوان بوت استرپ</p>
+            <p className="h4">h4. عنوان بوت استرپ</p>
+            <p className="h5">h5. عنوان بوت استرپ</p>
+            <p className="h6">h6. عنوان بوت استرپ</p>
           </div>
         </CCardBody>
       </CCard>
       <CCard className="mb-4">
-        <div className="card-header">Display headings</div>
+        <div className="card-header">نمایش سرفصل ها</div>
         <div className="card-body">
           <p>
-            Traditional heading elements are designed to work best in the meat of your page content.
-            When you need a heading to stand out, consider using a <strong>display heading</strong>
-            —a larger, slightly more opinionated heading style.
+            عناصر عنوان سنتی به گونه‌ای طراحی شده‌اند که بهترین عملکرد را در محتوای صفحه شما داشته باشند.
+            هنگامی که به یک عنوان برای متمایز شدن نیاز دارید، از <strong>عنوان نمایش</strong> استفاده کنید
+            - یک سبک عنوان بزرگتر و کمی با نظر بیشتر.
           </p>
           <div className="bd-example bd-example-type">
             <table className="table">
               <tbody>
                 <tr>
                   <td>
-                    <span className="display-1">Display 1</span>
+                    <span className="display-1">نمایش 1</span>
                   </td>
                 </tr>
                 <tr>
                   <td>
-                    <span className="display-2">Display 2</span>
+                    <span className="display-2">نمایش  2</span>
                   </td>
                 </tr>
                 <tr>
                   <td>
-                    <span className="display-3">Display 3</span>
+                    <span className="display-3">نمایش  3</span>
                   </td>
                 </tr>
                 <tr>
                   <td>
-                    <span className="display-4">Display 4</span>
+                    <span className="display-4">نمایش 4</span>
                   </td>
                 </tr>
               </tbody>
@@ -143,54 +144,54 @@ const Typography = () => {
         </div>
       </CCard>
       <CCard className="mb-4">
-        <CCardHeader>Inline text elements</CCardHeader>
+        <CCardHeader>عناصر متن درون خطی</CCardHeader>
         <CCardBody>
           <p>
-            Traditional heading elements are designed to work best in the meat of your page content.
-            When you need a heading to stand out, consider using a <strong>display heading</strong>
-            —a larger, slightly more opinionated heading style.
+            عناصر عنوان سنتی به گونه‌ای طراحی شده‌اند که بهترین عملکرد را در محتوای صفحه شما داشته باشند.
+            هنگامی که به یک عنوان برای متمایز شدن نیاز دارید، از <strong>عنوان نمایش</strong> استفاده کنید
+            - یک سبک عنوان بزرگتر و کمی با نظر بیشتر.
           </p>
           <div className="bd-example">
             <p>
-              You can use the mark tag to <mark>highlight</mark> text.
+              می توانید از تگ علامت گذاری برای <mark> برجسته کردن</mark> متن استفاده کنید.
             </p>
             <p>
-              <del>This line of text is meant to be treated as deleted text.</del>
+              <del>این خط متن به عنوان متن حذف شده تلقی می شود.</del>
             </p>
             <p>
-              <s>This line of text is meant to be treated as no longer accurate.</s>
+              <s>این خط از متن قرار است دیگر دقیق نباشد.</s>
             </p>
             <p>
-              <ins>This line of text is meant to be treated as an addition to the document.</ins>
+              <ins>این خط متن به‌عنوان افزوده‌ای به سند تلقی می‌شود.</ins>
             </p>
             <p>
-              <u>This line of text will render as underlined</u>
+              <u>این خط متن به صورت زیرخط دار ارائه می شود</u>
             </p>
             <p>
-              <small>This line of text is meant to be treated as fine print.</small>
+              <small>این خط از متن به عنوان چاپ ظریف در نظر گرفته شده است.</small>
             </p>
             <p>
-              <strong>This line rendered as bold text.</strong>
+              <strong>این خط به صورت متن پررنگ ارائه شده است.</strong>
             </p>
             <p>
-              <em>This line rendered as italicized text.</em>
+              <em>این خط به صورت متن ایتالیک ارائه شده است.</em>
             </p>
           </div>
         </CCardBody>
       </CCard>
       <CCard className="mb-4">
-        <CCardHeader>Description list alignment</CCardHeader>
+        <CCardHeader>تراز فهرست توضیحات</CCardHeader>
         <CCardBody>
           <p>
-            Align terms and descriptions horizontally by using our grid system’s predefined classes
-            (or semantic mixins). For longer terms, you can optionally add a{' '}
-            <code className="highlighter-rouge">.text-truncate</code> class to truncate the text
-            with an ellipsis.
+            با استفاده از کلاس های از پیش تعریف شده سیستم گرید ما، اصطلاحات و توضیحات را به صورت افقی تراز کنید
+            (یا میکس های معنایی). برای مدت طولانی تر، می توانید به صورت اختیاری یک{' '} اضافه کنید
+            کلاس <code className="highlighter-rouge">.text-truncate</code> برای کوتاه کردن متن
+            با بیضی
           </p>
           <div className="bd-example">
             <dl className="row">
-              <dt className="col-sm-3">Description lists</dt>
-              <dd className="col-sm-9">A description list is perfect for defining terms.</dd>
+              <dt className="col-sm-3">لیست های توضیحات</dt>
+              <dd className="col-sm-9">لیست توضیحات برای تعریف اصطلاحات عالی است.</dd>
 
               <dt className="col-sm-3">Euismod</dt>
               <dd className="col-sm-9">

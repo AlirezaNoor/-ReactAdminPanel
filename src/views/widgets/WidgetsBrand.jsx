@@ -1,3 +1,4 @@
+// در این صفحه  میاد باز برای برندهای صفحه اول زیر گزارشات قرار دارد  اطلاعات را پر می کند
 import React from 'react'
 import PropTypes from 'prop-types'
 import { CWidgetStatsD, CRow, CCol } from '@coreui/react'
@@ -61,10 +62,10 @@ const WidgetsBrand = ({ withCharts }) => {
               />
             ),
           })}
-          icon={<CIcon icon={cibFacebook} height={52} className="my-4 text-white" />}
+          icon={<CIcon icon={cilCalendar} height={52} className="my-4 text-white" />}
           values={[
-            { title: 'friends', value: '89K' },
-            { title: 'feeds', value: '459' },
+            { title: 'محل متن', value: 'داده' },
+            { title: 'محل متن', value: 'محل متن' },
           ]}
           style={{
             '--cui-card-cap-bg': '#3b5998',
@@ -97,10 +98,10 @@ const WidgetsBrand = ({ withCharts }) => {
               />
             ),
           })}
-          icon={<CIcon icon={cibTwitter} height={52} className="my-4 text-white" />}
+          icon={<CIcon icon={cilCalendar} height={52} className="my-4 text-white" />}
           values={[
-            { title: 'followers', value: '973k' },
-            { title: 'tweets', value: '1.792' },
+              { title: 'محل متن', value: 'داده' },
+              { title: 'محل متن', value: 'محل متن' },
           ]}
           style={{
             '--cui-card-cap-bg': '#00aced',
@@ -133,7 +134,7 @@ const WidgetsBrand = ({ withCharts }) => {
               />
             ),
           })}
-          icon={<CIcon icon={cibLinkedin} height={52} className="my-4 text-white" />}
+          icon={<CIcon icon={cilCalendar} height={52} className="my-4 text-white" />}
           values={[
             { title: 'contacts', value: '500' },
             { title: 'feeds', value: '1.292' },
@@ -172,8 +173,8 @@ const WidgetsBrand = ({ withCharts }) => {
           })}
           icon={<CIcon icon={cilCalendar} height={52} className="my-4 text-white" />}
           values={[
-            { title: 'events', value: '12+' },
-            { title: 'meetings', value: '4' },
+              { title: 'محل متن', value: 'داده' },
+              { title: 'محل متن', value: 'محل متن' },
           ]}
         />
       </CCol>

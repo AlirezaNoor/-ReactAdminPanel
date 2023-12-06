@@ -1,3 +1,5 @@
+// در این صفحه بحث نام گذاری مسیر دهی و ایکون دهی ساید بار را داریم بسیار کاربردی و زیبا
+
 import React from 'react'
 import CIcon from '@coreui/icons-react'
 import {
@@ -18,237 +20,237 @@ import { CNavGroup, CNavItem, CNavTitle } from '@coreui/react'
 const _nav = [
   {
     component: CNavItem,
-    name: 'Dashboard',
+    name: 'داشبورد',
     to: '/dashboard',
     icon: <CIcon icon={cilSpeedometer} customClassName="nav-icon" />,
     badge: {
       color: 'info',
-      text: 'NEW',
+      text: 'جدید',
     },
   },
   {
     component: CNavTitle,
-    name: 'Theme',
+    name: 'عمومی',
   },
   {
     component: CNavItem,
-    name: 'Colors',
+    name: 'رنگ ها',
     to: '/theme/colors',
     icon: <CIcon icon={cilDrop} customClassName="nav-icon" />,
   },
   {
     component: CNavItem,
-    name: 'Typography',
+    name: 'متن نگاری',
     to: '/theme/typography',
     icon: <CIcon icon={cilPencil} customClassName="nav-icon" />,
   },
   {
     component: CNavTitle,
-    name: 'Components',
+    name: 'کامپونت ها',
   },
   {
     component: CNavGroup,
-    name: 'Base',
+    name: 'پایه',
     to: '/base',
     icon: <CIcon icon={cilPuzzle} customClassName="nav-icon" />,
     items: [
       {
         component: CNavItem,
-        name: 'Accordion',
+        name: 'منوی کشویی',
         to: '/base/accordion',
       },
       {
         component: CNavItem,
-        name: 'Breadcrumb',
+        name: 'برد کرامب',
         to: '/base/breadcrumbs',
       },
       {
         component: CNavItem,
-        name: 'Cards',
+        name: 'کارد ها',
         to: '/base/cards',
       },
       {
         component: CNavItem,
-        name: 'Carousel',
+        name: 'کاروسل',
         to: '/base/carousels',
       },
       {
         component: CNavItem,
-        name: 'Collapse',
+        name: 'کالبس',
         to: '/base/collapses',
       },
       {
         component: CNavItem,
-        name: 'List group',
+        name: 'لیست ها',
         to: '/base/list-groups',
       },
       {
         component: CNavItem,
-        name: 'Navs & Tabs',
+        name: 'نوبار و تب ها',
         to: '/base/navs',
       },
       {
         component: CNavItem,
-        name: 'Pagination',
+        name: 'صفحه بندی',
         to: '/base/paginations',
       },
       {
         component: CNavItem,
-        name: 'Placeholders',
+        name: 'پلیس هلدر',
         to: '/base/placeholders',
       },
       {
         component: CNavItem,
-        name: 'Popovers',
+        name: 'پاپ اور',
         to: '/base/popovers',
       },
       {
         component: CNavItem,
-        name: 'Progress',
+        name: 'پروگرس بار ها',
         to: '/base/progress',
       },
       {
         component: CNavItem,
-        name: 'Spinners',
+        name: 'اسپینر ها',
         to: '/base/spinners',
       },
       {
         component: CNavItem,
-        name: 'Tables',
+        name: 'جداول',
         to: '/base/tables',
       },
       {
         component: CNavItem,
-        name: 'Tooltips',
+        name: 'تولتیپ ها',
         to: '/base/tooltips',
       },
     ],
   },
   {
     component: CNavGroup,
-    name: 'Buttons',
+    name: 'دکمه ها',
     to: '/buttons',
     icon: <CIcon icon={cilCursor} customClassName="nav-icon" />,
     items: [
       {
         component: CNavItem,
-        name: 'Buttons',
+        name: 'دکمه',
         to: '/buttons/buttons',
       },
       {
         component: CNavItem,
-        name: 'Buttons groups',
+        name: 'گروه دکمه ها',
         to: '/buttons/button-groups',
       },
       {
         component: CNavItem,
-        name: 'Dropdowns',
+        name: 'دراپ دون ها',
         to: '/buttons/dropdowns',
       },
     ],
   },
   {
     component: CNavGroup,
-    name: 'Forms',
+    name: 'فرم ها',
     icon: <CIcon icon={cilNotes} customClassName="nav-icon" />,
     items: [
       {
         component: CNavItem,
-        name: 'Form Control',
+        name: 'فرم کنترلر ها',
         to: '/forms/form-control',
       },
       {
         component: CNavItem,
-        name: 'Select',
+        name: 'سلکتوره',
         to: '/forms/select',
       },
       {
         component: CNavItem,
-        name: 'Checks & Radios',
+        name: 'چکباکس-رادیوها',
         to: '/forms/checks-radios',
       },
       {
         component: CNavItem,
-        name: 'Range',
+        name: 'رنج ',
         to: '/forms/range',
       },
       {
         component: CNavItem,
-        name: 'Input Group',
+        name: 'اینپوت گروپ',
         to: '/forms/input-group',
       },
       {
         component: CNavItem,
-        name: 'Floating Labels',
+        name: 'لیبل شناور',
         to: '/forms/floating-labels',
       },
       {
         component: CNavItem,
-        name: 'Layout',
+        name: 'لایه ها',
         to: '/forms/layout',
       },
       {
         component: CNavItem,
-        name: 'Validation',
+        name: ' تاییده ها',
         to: '/forms/validation',
       },
     ],
   },
   {
     component: CNavItem,
-    name: 'Charts',
+    name: 'نمودار ها',
     to: '/charts',
     icon: <CIcon icon={cilChartPie} customClassName="nav-icon" />,
   },
   {
     component: CNavGroup,
-    name: 'Icons',
+    name: 'ایکون ها',
     icon: <CIcon icon={cilStar} customClassName="nav-icon" />,
     items: [
       {
         component: CNavItem,
-        name: 'CoreUI Free',
+        name: 'ایکون ها',
         to: '/icons/coreui-icons',
         badge: {
           color: 'success',
-          text: 'NEW',
+          text: 'جدید',
         },
       },
       {
         component: CNavItem,
-        name: 'CoreUI Flags',
+        name: 'پرچم ها',
         to: '/icons/flags',
       },
       {
         component: CNavItem,
-        name: 'CoreUI Brands',
+        name: 'برند ها',
         to: '/icons/brands',
       },
     ],
   },
   {
     component: CNavGroup,
-    name: 'Notifications',
+    name: 'نوتیف ها',
     icon: <CIcon icon={cilBell} customClassName="nav-icon" />,
     items: [
       {
         component: CNavItem,
-        name: 'Alerts',
+        name: 'آلارت ها',
         to: '/notifications/alerts',
       },
       {
         component: CNavItem,
-        name: 'Badges',
+        name: 'علاِم',
         to: '/notifications/badges',
       },
       {
         component: CNavItem,
-        name: 'Modal',
+        name: 'مدال ها',
         to: '/notifications/modals',
       },
       {
         component: CNavItem,
-        name: 'Toasts',
+        name: 'توست ها',
         to: '/notifications/toasts',
       },
     ],
@@ -260,43 +262,43 @@ const _nav = [
     icon: <CIcon icon={cilCalculator} customClassName="nav-icon" />,
     badge: {
       color: 'info',
-      text: 'NEW',
+      text: 'جدید',
     },
   },
   {
     component: CNavTitle,
-    name: 'Extras',
+    name: 'افزونه ها',
   },
   {
     component: CNavGroup,
-    name: 'Pages',
+    name: 'صفحات ',
     icon: <CIcon icon={cilStar} customClassName="nav-icon" />,
     items: [
       {
         component: CNavItem,
-        name: 'Login',
+        name: 'ورود',
         to: '/login',
       },
       {
         component: CNavItem,
-        name: 'Register',
+        name: 'ساخت ',
         to: '/register',
       },
       {
         component: CNavItem,
-        name: 'Error 404',
+        name: 'ارور404',
         to: '/404',
       },
       {
         component: CNavItem,
-        name: 'Error 500',
+        name: 'ارور 500',
         to: '/500',
       },
     ],
   },
   {
     component: CNavItem,
-    name: 'Docs',
+    name: 'داکیومنت پنل',
     href: 'https://coreui.io/react/docs/templates/installation/',
     icon: <CIcon icon={cilDescription} customClassName="nav-icon" />,
   },

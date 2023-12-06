@@ -31,9 +31,9 @@ const Select = () => {
           </CCardHeader>
           <CCardBody>
             <p className="text-medium-emphasis small">
-              Place one add-on or button on either side of an input. You may also place one on both
-              sides of an input. Remember to place <code>&lt;CFormLabel&gt;</code>s outside the
-              input group.
+              یک افزونه یا دکمه را در دو طرف ورودی قرار دهید. همچنین می توانید یکی را روی هر دو قرار دهید
+              طرف های یک ورودی به یاد داشته باشید که <code>&lt;CFormLabel&gt;</code>ها را خارج از قسمت قرار دهید
+              گروه ورودی
             </p>
             <DocsExample href="forms/input-group">
               <CInputGroup className="mb-3">
@@ -82,9 +82,9 @@ const Select = () => {
           </CCardHeader>
           <CCardBody>
             <p className="text-medium-emphasis small">
-              Input groups wrap by default via <code>flex-wrap: wrap</code> in order to accommodate
-              custom form field validation within an input group. You may disable this with{' '}
-              <code>.flex-nowrap</code>.
+                گروه‌های ورودی به‌طور پیش‌فرض از طریق <code>flex-wrap: wrap</code> بسته‌بندی می‌شوند تا جاسازی شوند
+                اعتبار سنجی فیلد فرم سفارشی در یک گروه ورودی. می توانید این را با {' '} غیرفعال کنید
+                <code>.flex-nowrap</code>.
             </p>
             <DocsExample href="forms/input-group#wrapping">
               <CInputGroup className="flex-nowrap">
@@ -106,30 +106,30 @@ const Select = () => {
           </CCardHeader>
           <CCardBody>
             <p className="text-medium-emphasis small">
-              Add the relative form sizing classes to the <code>&lt;CInputGroup&gt;</code> itself
-              and contents within will automatically resize—no need for repeating the form control
-              size classes on each element.
+              کلاس های اندازه گیری فرم نسبی را به خود <code>&lt;CInputGroup&gt;</code> اضافه کنید
+              و محتویات داخل به طور خودکار تغییر اندازه خواهند داد - نیازی به تکرار کنترل فرم نیست
+              کلاس های اندازه در هر عنصر
             </p>
             <p className="text-medium-emphasis small">
-              <strong>Sizing on the individual input group elements isn&#39;tsupported.</strong>
+              <strong>اندازه‌گذاری عناصر گروه ورودی منفرد پشتیبانی نمی‌شود.</strong>
             </p>
             <DocsExample href="forms/input-group#sizing">
               <CInputGroup size="sm" className="mb-3">
-                <CInputGroupText id="inputGroup-sizing-sm">Small</CInputGroupText>
+                <CInputGroupText id="inputGroup-sizing-sm">کوچیک</CInputGroupText>
                 <CFormInput
                   aria-label="Sizing example input"
                   aria-describedby="inputGroup-sizing-sm"
                 />
               </CInputGroup>
               <CInputGroup className="mb-3">
-                <CInputGroupText id="inputGroup-sizing-default">Default</CInputGroupText>
+                <CInputGroupText id="inputGroup-sizing-default">دیفالت</CInputGroupText>
                 <CFormInput
                   aria-label="Sizing example input"
                   aria-describedby="inputGroup-sizing-default"
                 />
               </CInputGroup>
               <CInputGroup size="lg">
-                <CInputGroupText id="inputGroup-sizing-lg">Large</CInputGroupText>
+                <CInputGroupText id="inputGroup-sizing-lg">بزرگ</CInputGroupText>
                 <CFormInput
                   aria-label="Sizing example input"
                   aria-describedby="inputGroup-sizing-lg"
@@ -180,9 +180,9 @@ const Select = () => {
           </CCardHeader>
           <CCardBody>
             <p className="text-medium-emphasis small">
-              While multiple <code>&lt;CFormInput&gt;</code>s are supported visually, validation
-              styles are only available for input groups with a single{' '}
-              <code>&lt;CFormInput&gt;</code>.
+                در حالی که چندین <code>&lt;CFormInput&gt;</code> به صورت بصری پشتیبانی می‌شوند، اعتبارسنجی
+                سبک‌ها فقط برای گروه‌های ورودی با یک{' '} در دسترس هستند
+                <code>&lt;CFormInput&gt;</code>.
             </p>
             <DocsExample href="forms/input-group#multiple-inputs">
               <CInputGroup>
@@ -226,8 +226,8 @@ const Select = () => {
           </CCardHeader>
           <CCardBody>
             <p className="text-medium-emphasis small">
-              Multiple add-ons are supported and can be mixed with checkbox and radio input
-              versions..
+              افزونه‌های متعدد پشتیبانی می‌شوند و می‌توانند با کادر انتخاب و ورودی رادیویی ترکیب شوند
+              نسخه های..
             </p>
             <DocsExample href="forms/input-group#button-addons">
               <CInputGroup className="mb-3">

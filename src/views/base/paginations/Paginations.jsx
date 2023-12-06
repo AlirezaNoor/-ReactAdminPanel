@@ -1,3 +1,4 @@
+// این یک ویو و یا کامپوننت سمت  ساید برا است برای صفحه بندی ببینید و لذت ببر
 import React from 'react'
 import {
   CCard,
@@ -20,26 +21,26 @@ const Paginations = () => {
           </CCardHeader>
           <CCardBody>
             <p className="text-medium-emphasis small">
-              We use a large block of connected links for our pagination, making links hard to miss
-              and easily scalable—all while providing large hit areas. Pagination is built with list
-              HTML elements so screen readers can announce the number of available links. Use a
-              wrapping <code>&lt;nav&gt;</code> element to identify it as a navigation section to
-              screen readers and other assistive technologies.
+              ما از بلوک بزرگی از پیوندهای متصل برای صفحه بندی خود استفاده می کنیم و از دست دادن پیوندها سخت می شود
+              و به راحتی مقیاس پذیر - همه در حالی که مناطق ضربه بزرگ را فراهم می کند. صفحه بندی با لیست ساخته شده است
+              عناصر HTML تا صفحه خوان ها بتوانند تعداد لینک های موجود را اعلام کنند. استفاده از a
+              بسته بندی عنصر <code>&lt;nav&gt;</code> برای شناسایی آن به عنوان بخش پیمایش به
+              صفحه خوان ها و سایر فناوری های کمکی.
             </p>
             <p className="text-medium-emphasis small">
-              In addition, as pages likely have more than one such navigation section, it&#39;s
-              advisable to provide a descriptive <code>aria-label</code> for the{' '}
-              <code>&lt;nav&gt;</code> to reflect its purpose. For example, if the pagination
-              component is used to navigate between a set of search results, an appropriate label
-              could be <code>aria-label=&#34;Search results pages&#34;</code>.
+                علاوه بر این، از آنجایی که صفحات احتمالاً دارای بیش از یک بخش ناوبری هستند،
+                توصیه می شود یک <code>aria-label</code> توصیفی برای{' '} ارائه دهید
+                <code>&lt;nav&gt;</code> تا هدف خود را منعکس کند. به عنوان مثال، اگر صفحه بندی
+                جزء برای حرکت بین مجموعه ای از نتایج جستجو، یک برچسب مناسب استفاده می شود
+                می تواند <code>aria-label=&#34;صفحات نتایج جستجو&#34;</code> باشد.
             </p>
             <DocsExample href="components/pagination">
               <CPagination aria-label="Page navigation example">
-                <CPaginationItem>Previous</CPaginationItem>
+                <CPaginationItem>قبلی </CPaginationItem>
                 <CPaginationItem>1</CPaginationItem>
                 <CPaginationItem>2</CPaginationItem>
                 <CPaginationItem>3</CPaginationItem>
-                <CPaginationItem>Next</CPaginationItem>
+                <CPaginationItem>بعدی</CPaginationItem>
               </CPagination>
             </DocsExample>
           </CCardBody>
@@ -52,8 +53,8 @@ const Paginations = () => {
           </CCardHeader>
           <CCardBody>
             <p className="text-medium-emphasis small">
-              Looking to use an icon or symbol in place of text for some pagination links? Be sure
-              to provide proper screen reader support with <code>aria</code> attributes.
+              آیا به دنبال استفاده از نماد یا نماد به جای متن برای برخی از پیوندهای صفحه بندی هستید؟ مطمئن باش
+              برای ارائه پشتیبانی مناسب از صفحه خوان با ویژگی های <code>aria</code>.
             </p>
             <DocsExample href="components/pagination#working-with-icons">
               <CPagination aria-label="Page navigation example">
@@ -78,16 +79,16 @@ const Paginations = () => {
           </CCardHeader>
           <CCardBody>
             <p className="text-medium-emphasis small">
-              Pagination links are customizable for different circumstances. Use{' '}
-              <code>disabled</code> for links that appear un-clickable and <code>.active</code> to
-              indicate the current page.
+              پیوندهای صفحه بندی برای شرایط مختلف قابل تنظیم هستند. استفاده کنید{' '}
+              <code>غیرفعال</code> برای پیوندهایی که غیرقابل کلیک ظاهر می شوند و <code>.active</code> به
+              صفحه فعلی را نشان می دهد.
             </p>
             <p className="text-medium-emphasis small">
-              While the <code>disabled</code> prop uses <code>pointer-events: none</code> to{' '}
-              <em>try</em> to disable the link functionality of <code>&lt;a&gt;</code>s, that CSS
-              property is not yet standardized and doesn&#39;taccount for keyboard navigation. As
-              such, we always add <code>tabindex=&#34;-1&#34;</code> on disabled links and use
-              custom JavaScript to fully disable their functionality.
+                در حالی که پروپ <code>غیرفعال</code> از <code>pointer-events: هیچ</code> برای{' '} استفاده می کند
+                <em>سعی کنید</em> عملکرد پیوند <code>&lt;a&gt;</code>s، آن CSS را غیرفعال کنید
+                ویژگی هنوز استاندارد نشده است و ناوبری صفحه کلید را در نظر می گیرد. مانند
+                به این ترتیب، ما همیشه <code>tabindex=&#34;-1&#34;</code> را روی پیوندهای غیرفعال اضافه می کنیم و استفاده می کنیم
+                جاوا اسکریپت سفارشی برای غیرفعال کردن کامل عملکرد آنها.
             </p>
             <DocsExample href="components/pagination#disabled-and-active-states">
               <CPagination aria-label="Page navigation example">
@@ -112,25 +113,25 @@ const Paginations = () => {
           </CCardHeader>
           <CCardBody>
             <p className="text-medium-emphasis small">
-              Fancy larger or smaller pagination? Add <code>size=&#34;lg&#34;</code> or{' '}
-              <code>size=&#34;sm&#34;</code> for additional sizes.
+              صفحه بندی بزرگتر یا کوچکتر را دوست دارید؟ <code>size=&#34;lg&#34;</code> یا{' '} را اضافه کنید
+              <code>size=&#34;sm&#34;</code> برای اندازه های اضافی.
             </p>
             <DocsExample href="components/pagination#sizing">
               <CPagination size="lg" aria-label="Page navigation example">
-                <CPaginationItem>Previous</CPaginationItem>
+                <CPaginationItem>قبلی</CPaginationItem>
                 <CPaginationItem>1</CPaginationItem>
                 <CPaginationItem>2</CPaginationItem>
                 <CPaginationItem>3</CPaginationItem>
-                <CPaginationItem>Next</CPaginationItem>
+                <CPaginationItem>بعدی</CPaginationItem>
               </CPagination>
             </DocsExample>
             <DocsExample href="components/pagination#sizing">
               <CPagination size="sm" aria-label="Page navigation example">
-                <CPaginationItem>Previous</CPaginationItem>
+                <CPaginationItem>قیلی</CPaginationItem>
                 <CPaginationItem>1</CPaginationItem>
                 <CPaginationItem>2</CPaginationItem>
                 <CPaginationItem>3</CPaginationItem>
-                <CPaginationItem>Next</CPaginationItem>
+                <CPaginationItem>بعدی</CPaginationItem>
               </CPagination>
             </DocsExample>
           </CCardBody>
@@ -142,26 +143,26 @@ const Paginations = () => {
             <strong>React Pagination</strong> <small>Alignment</small>
           </CCardHeader>
           <CCardBody>
-            <p className="text-medium-emphasis small">
-              Change the alignment of pagination components with{' '}
-              <a href="https://coreui.io/docs/utilities/flex/">flexbox utilities</a>.
-            </p>
+              <p className="text-medium-emphasis small">
+                  تراز اجزای صفحه بندی را با{' '} تغییر دهید
+                  <a href="https://coreui.io/docs/utilities/flex/">ابزارهای flexbox</a>.
+              </p>
             <DocsExample href="components/pagination#aligment">
               <CPagination className="justify-content-center" aria-label="Page navigation example">
-                <CPaginationItem disabled>Previous</CPaginationItem>
+                <CPaginationItem disabled>قبلی</CPaginationItem>
                 <CPaginationItem>1</CPaginationItem>
                 <CPaginationItem>2</CPaginationItem>
                 <CPaginationItem>3</CPaginationItem>
-                <CPaginationItem>Next</CPaginationItem>
+                <CPaginationItem>بعدی</CPaginationItem>
               </CPagination>
             </DocsExample>
             <DocsExample href="components/pagination#aligment">
               <CPagination className="justify-content-end" aria-label="Page navigation example">
-                <CPaginationItem disabled>Previous</CPaginationItem>
+                <CPaginationItem disabled>قیلی</CPaginationItem>
                 <CPaginationItem>1</CPaginationItem>
                 <CPaginationItem>2</CPaginationItem>
                 <CPaginationItem>3</CPaginationItem>
-                <CPaginationItem>Next</CPaginationItem>
+                <CPaginationItem>بعدی</CPaginationItem>
               </CPagination>
             </DocsExample>
           </CCardBody>

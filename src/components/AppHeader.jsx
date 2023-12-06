@@ -1,3 +1,4 @@
+// این بخش مربوط به  نوبار هدر می باشد که تمام لینک های نوبار  را مدیریت و برسی می نمایید
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 import { useSelector, useDispatch } from 'react-redux'
@@ -37,14 +38,14 @@ const AppHeader = () => {
         <CHeaderNav className="d-none d-md-flex me-auto">
           <CNavItem>
             <CNavLink to="/dashboard" component={NavLink}>
-              Dashboard
+              داشبورد
             </CNavLink>
           </CNavItem>
           <CNavItem>
-            <CNavLink href="#">Users</CNavLink>
+            <CNavLink href="#">کاربران آنلاین</CNavLink>
           </CNavItem>
           <CNavItem>
-            <CNavLink href="#">Settings</CNavLink>
+            <CNavLink href="#">تنظیمات پنل</CNavLink>
           </CNavItem>
         </CHeaderNav>
         <CHeaderNav>

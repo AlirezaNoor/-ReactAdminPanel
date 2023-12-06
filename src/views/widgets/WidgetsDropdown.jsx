@@ -1,3 +1,4 @@
+// این برای سه نقطه کارت هایی که در صفحه اصلی قرار دارند می باشد
 import React from 'react'
 import {
   CRow,
@@ -22,23 +23,24 @@ const WidgetsDropdown = () => {
           color="primary"
           value={
             <>
-              26K{' '}
+               {' '}
               <span className="fs-6 fw-normal">
                 (-12.4% <CIcon icon={cilArrowBottom} />)
               </span>
             </>
           }
-          title="Users"
+            //در این قسمت تایتل کارد های صفحه اصلی را تغییر می دهیم
+          title="مدیریت دیتابیس"
           action={
             <CDropdown alignment="end">
               <CDropdownToggle color="transparent" caret={false} className="p-0">
                 <CIcon icon={cilOptions} className="text-high-emphasis-inverse" />
               </CDropdownToggle>
               <CDropdownMenu>
-                <CDropdownItem>Action</CDropdownItem>
-                <CDropdownItem>Another action</CDropdownItem>
-                <CDropdownItem>Something else here...</CDropdownItem>
-                <CDropdownItem disabled>Disabled action</CDropdownItem>
+                <CDropdownItem>اکشن ها</CDropdownItem>
+                <CDropdownItem>سایر اکشن ها</CDropdownItem>
+                <CDropdownItem>؟؟؟؟</CDropdownItem>
+                <CDropdownItem disabled>؟؟؟؟</CDropdownItem>
               </CDropdownMenu>
             </CDropdown>
           }
@@ -109,23 +111,24 @@ const WidgetsDropdown = () => {
           color="info"
           value={
             <>
-              $6.200{' '}
+               {' '}
               <span className="fs-6 fw-normal">
                 (40.9% <CIcon icon={cilArrowTop} />)
               </span>
             </>
           }
-          title="Income"
+            //در این قسمت تایتل کارد های صفحه اصلی را تغییر می دهیم
+          title="مانیتورینگ منابع"
           action={
             <CDropdown alignment="end">
               <CDropdownToggle color="transparent" caret={false} className="p-0">
                 <CIcon icon={cilOptions} className="text-high-emphasis-inverse" />
               </CDropdownToggle>
               <CDropdownMenu>
-                <CDropdownItem>Action</CDropdownItem>
-                <CDropdownItem>Another action</CDropdownItem>
-                <CDropdownItem>Something else here...</CDropdownItem>
-                <CDropdownItem disabled>Disabled action</CDropdownItem>
+                <CDropdownItem>اکشن ها</CDropdownItem>
+                <CDropdownItem>سایر اکشن ها</CDropdownItem>
+                <CDropdownItem>؟؟؟؟</CDropdownItem>
+                <CDropdownItem disabled>؟؟؟؟</CDropdownItem>
               </CDropdownMenu>
             </CDropdown>
           }
@@ -195,23 +198,24 @@ const WidgetsDropdown = () => {
           color="warning"
           value={
             <>
-              2.49{' '}
+              {' '}
               <span className="fs-6 fw-normal">
                 (84.7% <CIcon icon={cilArrowTop} />)
               </span>
             </>
           }
-          title="Conversion Rate"
+            //در این قسمت تایتل کارد های صفحه اصلی را تغییر می دهیم
+          title="مدیریت اپلیکیشن"
           action={
             <CDropdown alignment="end">
               <CDropdownToggle color="transparent" caret={false} className="p-0">
                 <CIcon icon={cilOptions} className="text-high-emphasis-inverse" />
               </CDropdownToggle>
               <CDropdownMenu>
-                <CDropdownItem>Action</CDropdownItem>
-                <CDropdownItem>Another action</CDropdownItem>
-                <CDropdownItem>Something else here...</CDropdownItem>
-                <CDropdownItem disabled>Disabled action</CDropdownItem>
+                <CDropdownItem>اکشن ها</CDropdownItem>
+                <CDropdownItem>سایر اکشن ها</CDropdownItem>
+                <CDropdownItem>؟؟؟؟</CDropdownItem>
+                <CDropdownItem disabled>؟؟؟؟</CDropdownItem>
               </CDropdownMenu>
             </CDropdown>
           }
@@ -268,23 +272,24 @@ const WidgetsDropdown = () => {
           color="danger"
           value={
             <>
-              44K{' '}
+              {' '}
               <span className="fs-6 fw-normal">
                 (-23.6% <CIcon icon={cilArrowBottom} />)
               </span>
             </>
           }
-          title="Sessions"
+          //در این قسمت تایتل کارد های صفحه اصلی را تغییر می دهیم
+          title="مدیریت کاربر"
           action={
             <CDropdown alignment="end">
               <CDropdownToggle color="transparent" caret={false} className="p-0">
                 <CIcon icon={cilOptions} className="text-high-emphasis-inverse" />
               </CDropdownToggle>
               <CDropdownMenu>
-                <CDropdownItem>Action</CDropdownItem>
-                <CDropdownItem>Another action</CDropdownItem>
-                <CDropdownItem>Something else here...</CDropdownItem>
-                <CDropdownItem disabled>Disabled action</CDropdownItem>
+                <CDropdownItem>اکشن ها</CDropdownItem>
+                <CDropdownItem>سایر اکشن ها</CDropdownItem>
+                <CDropdownItem>؟؟؟؟</CDropdownItem>
+                <CDropdownItem disabled>؟؟؟؟</CDropdownItem>
               </CDropdownMenu>
             </CDropdown>
           }

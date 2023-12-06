@@ -1,3 +1,4 @@
+// این یکی پروگرس بار است که و صحفه ایتم سایدبار است
 import React from 'react'
 import { CCard, CCardBody, CCardHeader, CCol, CProgress, CProgressBar, CRow } from '@coreui/react'
 import { DocsExample } from 'src/components'
@@ -12,12 +13,12 @@ const Progress = () => {
           </CCardHeader>
           <CCardBody>
             <p className="text-medium-emphasis small">
-              Progress components are built with two HTML elements, some CSS to set the width, and a
-              few attributes. We don&#39;tuse{' '}
+              کامپوننت های Progress با دو عنصر HTML، مقداری CSS برای تنظیم عرض و a ساخته شده اند
+              چند ویژگی ما&#39;استفاده نمی‌کنیم{' '}
               <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/progress">
-                the HTML5 <code>&lt;progress&gt;</code> element
+                عنصر <code>&lt;پیشرفت&gt;</code> HTML5
               </a>
-              , ensuring you can stack progress bars, animate them, and place text labels over them.
+              ، اطمینان حاصل کنید که می توانید نوارهای پیشرفت را روی هم قرار دهید، آنها را متحرک کنید و برچسب های متنی را روی آنها قرار دهید.
             </p>
             <DocsExample href="components/progress">
               <CProgress className="mb-3">
@@ -46,7 +47,7 @@ const Progress = () => {
           </CCardHeader>
           <CCardBody>
             <p className="text-medium-emphasis small">
-              Add labels to your progress bars by placing text within the{' '}
+              با قرار دادن متن در {' '} برچسب ها را به نوارهای پیشرفت خود اضافه کنید
               <code>&lt;CProgressBar&gt;</code>.
             </p>
             <DocsExample href="components/progress#labels">
@@ -64,9 +65,9 @@ const Progress = () => {
           </CCardHeader>
           <CCardBody>
             <p className="text-medium-emphasis small">
-              We only set a <code>height</code> value on the <code>&lt;CProgress&gt;</code>, so if
-              you change that value the inner <code>&lt;CProgressBar&gt;</code> will automatically
-              resize accordingly.
+              ما فقط مقدار <code>height</code> را روی <code>&lt;CProgress&gt;</code> تنظیم می کنیم، بنابراین اگر
+              شما آن مقدار را تغییر می‌دهید <code>&lt;CProgressBar&gt;</code> داخلی به طور خودکار
+              بر این اساس اندازه را تغییر دهید
             </p>
             <DocsExample href="components/progress#height">
               <CProgress height={1} className="mb-3">
@@ -86,7 +87,7 @@ const Progress = () => {
           </CCardHeader>
           <CCardBody>
             <p className="text-medium-emphasis small">
-              Use <code>color</code> prop to change the appearance of individual progress bars.
+              برای تغییر ظاهر نوارهای پیشرفت فردی از پایه <code>color</code> استفاده کنید.
             </p>
             <DocsExample href="components/progress#backgrounds">
               <CProgress className="mb-3">
@@ -112,7 +113,7 @@ const Progress = () => {
           </CCardHeader>
           <CCardBody>
             <p className="text-medium-emphasis small">
-              Include multiple progress bars in a progress component if you need.
+              در صورت نیاز، چندین نوار پیشرفت را در یک جزء پیشرفت قرار دهید.
             </p>
             <DocsExample href="components/progress#multiple-bars">
               <CProgress className="mb-3">
@@ -131,8 +132,8 @@ const Progress = () => {
           </CCardHeader>
           <CCardBody>
             <p className="text-medium-emphasis small">
-              Add <code>variant=&#34;striped&#34;</code> to any <code>&lt;CProgressBar&gt;</code> to
-              apply a stripe via CSS gradient over the progress bar&#39;s background color.
+              <code>variant=&#34;striped&#34;</code> را به هر <code>&lt;CProgressBar&gt;</code> اضافه کنید
+              یک نوار از طریق گرادیان CSS روی رنگ پس‌زمینه نوار پیشرفت اعمال کنید.
             </p>
             <DocsExample href="components/progress#striped">
               <CProgress className="mb-3">
@@ -158,9 +159,9 @@ const Progress = () => {
           </CCardHeader>
           <CCardBody>
             <p className="text-medium-emphasis small">
-              The striped gradient can also be animated. Add <code>animated</code> property to{' '}
-              <code>&lt;CProgressBar&gt;</code> to animate the stripes right to left via CSS3
-              animations.
+              گرادیان راه راه نیز می تواند متحرک شود. افزودن ویژگی <code>animated</code> به{' '}
+              <code>&lt;CProgressBar&gt;</code> برای متحرک سازی نوارها از راست به چپ از طریق CSS3
+              تصاوير متحرك.
             </p>
             <DocsExample href="components/progress#animated-stripes">
               <CProgress className="mb-3">

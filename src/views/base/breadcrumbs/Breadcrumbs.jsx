@@ -1,3 +1,4 @@
+// همانگونه که مشخص است این یک صفحه است د رکه در منوی سمت راست دیده می شود
 import React from 'react'
 import {
   CBreadcrumb,
@@ -17,51 +18,51 @@ const Breadcrumbs = () => {
       <CCol xs={12}>
         <CCard className="mb-4">
           <CCardHeader>
-            <strong>React Breadcrumb</strong>
+            <strong> برادکام  ریکت می باشد</strong>
           </CCardHeader>
           <CCardBody>
             <p className="text-medium-emphasis small">
-              The breadcrumb navigation provides links back to each previous page the user navigated
-              through and shows the current location in a website or an application. You don’t have
-              to add separators, because they automatically added in CSS through{' '}
+              پیمایش براد کارم پیوندهایی را به هر صفحه قبلی که کاربر پیمایش کرده است ارائه می دهد
+              از طریق و مکان فعلی را در یک وب سایت یا یک برنامه نشان می دهد. شما ندارید
+              برای اضافه کردن جداکننده ها، زیرا به طور خودکار از طریق CSS اضافه می شوند{' '}
               <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/::before">
                 {' '}
-                <code>::before</code>
+                <code>::قبل</code>
               </a>{' '}
               and{' '}
               <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/content">
                 {' '}
-                <code>content</code>
+                <code>محتوا</code>
               </a>
               .
             </p>
             <DocsExample href="components/breadcrumb">
               <CBreadcrumb>
                 <CBreadcrumbItem>
-                  <CLink href="#">Home</CLink>
+                  <CLink href="#">خانه</CLink>
                 </CBreadcrumbItem>
-                <CBreadcrumbItem active>Library</CBreadcrumbItem>
+                <CBreadcrumbItem active>کتابخانه</CBreadcrumbItem>
               </CBreadcrumb>
               <CBreadcrumb>
                 <CBreadcrumbItem>
-                  <CLink href="#">Home</CLink>
+                  <CLink href="#">خانه</CLink>
                 </CBreadcrumbItem>
                 <CBreadcrumbItem>
-                  <CLink href="#">Library</CLink>
+                  <CLink href="#">کتابخانه </CLink>
                 </CBreadcrumbItem>
-                <CBreadcrumbItem active>Data</CBreadcrumbItem>
+                <CBreadcrumbItem active>دیتا</CBreadcrumbItem>
               </CBreadcrumb>
               <CBreadcrumb>
                 <CBreadcrumbItem>
-                  <CLink href="#">Home</CLink>
+                  <CLink href="#">خانه </CLink>
                 </CBreadcrumbItem>
                 <CBreadcrumbItem>
-                  <CLink href="#">Library</CLink>
+                  <CLink href="#">کتابخانخه ها</CLink>
                 </CBreadcrumbItem>
                 <CBreadcrumbItem>
-                  <CLink href="#">Data</CLink>
+                  <CLink href="#">دیتا</CLink>
                 </CBreadcrumbItem>
-                <CBreadcrumbItem active>Bootstrap</CBreadcrumbItem>
+                <CBreadcrumbItem active>بوت استرپ</CBreadcrumbItem>
               </CBreadcrumb>
             </DocsExample>
           </CCardBody>

@@ -1,3 +1,4 @@
+// این هم صفحه لیست دکمه هاست  که در اینن صحه قرار دارد وبرای ساید بار است
 import React from 'react'
 import {
   CButton,
@@ -30,19 +31,19 @@ const ButtonGroups = () => {
           </CCardHeader>
           <CCardBody>
             <p>
-              Wrap a series of <code>&lt;CButton&gt;</code> components in{' '}
+              مجموعه ای از اجزای <code>&lt;CButton&gt;</code> را در{' '} بپیچید
               <code>&lt;CButtonGroup&gt;</code>.{' '}
             </p>
             <DocsExample href="components/button-group">
               <CButtonGroup role="group" aria-label="Basic example">
-                <CButton color="primary">Left</CButton>
-                <CButton color="primary">Middle</CButton>
-                <CButton color="primary">Right</CButton>
+                <CButton color="primary">دکمه</CButton>
+                <CButton color="primary">دکمه</CButton>
+                <CButton color="primary">دکمه</CButton>
               </CButtonGroup>
             </DocsExample>
             <p>
-              These classes can also be added to groups of links, as an alternative to the{' '}
-              <code>&lt;CNav&gt;</code> components.
+              این کلاس‌ها همچنین می‌توانند به گروه‌هایی از پیوندها، به عنوان جایگزینی برای{' '} اضافه شوند.
+              اجزای <code>&lt;CNav&gt;</code>.جهت ها
             </p>
             <DocsExample href="components/button-group">
               <CButtonGroup>
@@ -68,9 +69,9 @@ const ButtonGroups = () => {
           <CCardBody>
             <DocsExample href="components/button-group#mixed-styles">
               <CButtonGroup role="group" aria-label="Basic mixed styles example">
-                <CButton color="danger">Left</CButton>
-                <CButton color="warning">Middle</CButton>
-                <CButton color="success">Right</CButton>
+                <CButton color="danger">جهت ها</CButton>
+                <CButton color="warning">جهت ها</CButton>
+                <CButton color="success">جهت ها</CButton>
               </CButtonGroup>
             </DocsExample>
           </CCardBody>
@@ -105,8 +106,8 @@ const ButtonGroups = () => {
           </CCardHeader>
           <CCardBody>
             <p>
-              Combine button-like checkbox and radio toggle buttons into a seamless looking button
-              group.
+              چک باکس دکمه مانند و دکمه های رادیویی را در یک دکمه بدون درز با هم ترکیب کنید
+              گروه
             </p>
             <DocsExample href="components/button-group#checkbox-and-radio-button-groups">
               <CButtonGroup role="group" aria-label="Basic checkbox toggle button group">
@@ -168,8 +169,8 @@ const ButtonGroups = () => {
           </CCardHeader>
           <CCardBody>
             <p>
-              Join sets of button groups into button toolbars for more complicated components. Use
-              utility classes as needed to space out groups, buttons, and more.
+              برای اجزای پیچیده‌تر، مجموعه‌ای از گروه‌های دکمه را به نوار ابزار دکمه‌ها بپیوندید. استفاده کنید
+              کلاس های کاربردی در صورت نیاز برای فاصله بین گروه ها، دکمه ها و موارد دیگر.
             </p>
             <DocsExample href="components/button-group#button-toolbar">
               <CButtonToolbar role="group" aria-label="Toolbar with button groups">
@@ -190,8 +191,8 @@ const ButtonGroups = () => {
               </CButtonToolbar>
             </DocsExample>
             <p>
-              Feel free to combine input groups with button groups in your toolbars. Similar to the
-              example above, you’ll likely need some utilities through to space items correctly.
+              برای اجزای پیچیده‌تر، مجموعه‌ای از گروه‌های دکمه را به نوار ابزار دکمه‌ها بپیوندید. استفاده کنید
+              کلاس های کاربردی در صورت نیاز برای فاصله بین گروه ها، دکمه ها و موارد دیگر.
             </p>
             <DocsExample href="components/button-group#button-toolbar">
               <CButtonToolbar className="mb-3" role="group" aria-label="Toolbar with button groups">
@@ -257,44 +258,44 @@ const ButtonGroups = () => {
           </CCardHeader>
           <CCardBody>
             <p>
-              Alternatively, of implementing button sizing classes to each button in a group, set{' '}
-              <code>size</code> property to all <code>&lt;CButtonGroup&gt;</code>&#39;s, including
-              each one when nesting multiple groups.
+              از طرف دیگر، برای پیاده سازی کلاس های اندازه دکمه برای هر دکمه در یک گروه، تنظیم کنید{' '}
+              ویژگی <code>size</code> برای همه <code>&lt;CButtonGroup&gt;</code>&#39;ها، از جمله
+              هر کدام هنگام تودرتو کردن گروه های متعدد.
             </p>
             <DocsExample href="components/button-group#sizing">
               <CButtonGroup size="lg" role="group" aria-label="Large button group">
                 <CButton color="dark" variant="outline">
-                  Left
+                  چپ
                 </CButton>
                 <CButton color="dark" variant="outline">
-                  Middle
+                  وسط
                 </CButton>
                 <CButton color="dark" variant="outline">
-                  Right
+                  راست
                 </CButton>
               </CButtonGroup>
               <br />
               <CButtonGroup role="group" aria-label="Default button group">
                 <CButton color="dark" variant="outline">
-                  Left
+                  چپ
                 </CButton>
                 <CButton color="dark" variant="outline">
-                  Middle
+                  وسط
                 </CButton>
                 <CButton color="dark" variant="outline">
-                  Right
+                  راست
                 </CButton>
               </CButtonGroup>
               <br />
               <CButtonGroup size="sm" role="group" aria-label="Small button group">
                 <CButton color="dark" variant="outline">
-                  Left
+                  چپ
                 </CButton>
                 <CButton color="dark" variant="outline">
-                  Middle
+                  وسط
                 </CButton>
                 <CButton color="dark" variant="outline">
-                  Right
+                  راست
                 </CButton>
               </CButtonGroup>
             </DocsExample>
@@ -308,22 +309,22 @@ const ButtonGroups = () => {
           </CCardHeader>
           <CCardBody>
             <p className="text-medium-emphasis small">
-              Put a <code>&lt;CButtonGroup&gt;</code> inside another{' '}
-              <code>&lt;CButtonGroup&gt;</code> when you need dropdown menus combined with a series
-              of buttons.
+              یک <code>&lt;CButtonGroup&gt;</code> داخل دیگری قرار دهید{' '}
+              <code>&lt;CButtonGroup&gt;</code> هنگامی که به منوهای کشویی همراه با یک سری نیاز دارید
+              از دکمه ها
             </p>
             <DocsExample href="components/button-group#nesting">
               <CButtonGroup role="group" aria-label="Button group with nested dropdown">
                 <CButton color="primary">1</CButton>
                 <CButton color="primary">2</CButton>
                 <CDropdown variant="btn-group">
-                  <CDropdownToggle color="primary">Dropdown</CDropdownToggle>
+                  <CDropdownToggle color="primary">دراپ دون</CDropdownToggle>
                   <CDropdownMenu>
-                    <CDropdownItem href="#">Action</CDropdownItem>
-                    <CDropdownItem href="#">Another action</CDropdownItem>
-                    <CDropdownItem href="#">Something else here</CDropdownItem>
+                    <CDropdownItem href="#">اکشن</CDropdownItem>
+                    <CDropdownItem href="#">اکشن دیگر</CDropdownItem>
+                    <CDropdownItem href="#">یک چیز دیگر </CDropdownItem>
                     <CDropdownDivider />
-                    <CDropdownItem href="#">Separated link</CDropdownItem>
+                    <CDropdownItem href="#">متن تستی</CDropdownItem>
                   </CDropdownMenu>
                 </CDropdown>
               </CButtonGroup>
@@ -338,64 +339,64 @@ const ButtonGroups = () => {
           </CCardHeader>
           <CCardBody>
             <p className="text-medium-emphasis small">
-              Create a set of buttons that appear vertically stacked rather than horizontally.{' '}
-              <strong>Split button dropdowns are not supported here.</strong>
+                مجموعه‌ای از دکمه‌ها را ایجاد کنید که به‌جای افقی، به‌صورت عمودی روی هم قرار گرفته باشند.{' '}
+                <strong>کشویی دکمه تقسیم در اینجا پشتیبانی نمی شود.</strong>
             </p>
             <DocsExample href="components/button-group/#vertical-variation">
               <CButtonGroup vertical role="group" aria-label="Vertical button group">
-                <CButton color="dark">Button</CButton>
-                <CButton color="dark">Button</CButton>
-                <CButton color="dark">Button</CButton>
-                <CButton color="dark">Button</CButton>
-                <CButton color="dark">Button</CButton>
-                <CButton color="dark">Button</CButton>
-                <CButton color="dark">Button</CButton>
+                <CButton color="dark">دکمه</CButton>
+                <CButton color="dark">دکمه</CButton>
+                <CButton color="dark">دکمه</CButton>
+                <CButton color="dark">دکمه</CButton>
+                <CButton color="dark">دکمه</CButton>
+                <CButton color="dark">دکمه</CButton>
+                <CButton color="dark">دکمه</CButton>
               </CButtonGroup>
             </DocsExample>
             <DocsExample href="components/button-group/#vertical-variation">
               <CButtonGroup vertical role="group" aria-label="Vertical button group">
-                <CButton color="primary">Button</CButton>
-                <CButton color="primary">Button</CButton>
+                <CButton color="primary">دکمه</CButton>
+                <CButton color="primary">دکمه</CButton>
                 <CDropdown variant="btn-group">
-                  <CDropdownToggle color="primary">Dropdown</CDropdownToggle>
+                  <CDropdownToggle color="primary">دراپ دون</CDropdownToggle>
                   <CDropdownMenu>
-                    <CDropdownItem href="#">Action</CDropdownItem>
-                    <CDropdownItem href="#">Another action</CDropdownItem>
-                    <CDropdownItem href="#">Something else here</CDropdownItem>
+                    <CDropdownItem href="#">اکشن</CDropdownItem>
+                    <CDropdownItem href="#">اکشن  </CDropdownItem>
+                    <CDropdownItem href="#">اکشن  </CDropdownItem>
                     <CDropdownDivider />
-                    <CDropdownItem href="#">Separated link</CDropdownItem>
+                    <CDropdownItem href="#">اکشن  </CDropdownItem>
                   </CDropdownMenu>
                 </CDropdown>
-                <CButton color="primary">Button</CButton>
-                <CButton color="primary">Button</CButton>
+                <CButton color="primary">دکمه</CButton>
+                <CButton color="primary">دکمه</CButton>
                 <CDropdown variant="btn-group">
                   <CDropdownToggle color="primary">Dropdown</CDropdownToggle>
                   <CDropdownMenu>
-                    <CDropdownItem href="#">Action</CDropdownItem>
-                    <CDropdownItem href="#">Another action</CDropdownItem>
-                    <CDropdownItem href="#">Something else here</CDropdownItem>
+                    <CDropdownItem href="#">اکشن</CDropdownItem>
+                    <CDropdownItem href="#">اکشن دیگر</CDropdownItem>
+                    <CDropdownItem href="#">یک پیز دیگر</CDropdownItem>
                     <CDropdownDivider />
-                    <CDropdownItem href="#">Separated link</CDropdownItem>
-                  </CDropdownMenu>
-                </CDropdown>
-                <CDropdown variant="btn-group">
-                  <CDropdownToggle color="primary">Dropdown</CDropdownToggle>
-                  <CDropdownMenu>
-                    <CDropdownItem href="#">Action</CDropdownItem>
-                    <CDropdownItem href="#">Another action</CDropdownItem>
-                    <CDropdownItem href="#">Something else here</CDropdownItem>
-                    <CDropdownDivider />
-                    <CDropdownItem href="#">Separated link</CDropdownItem>
+                    <CDropdownItem href="#">یک چیز دیگر</CDropdownItem>
                   </CDropdownMenu>
                 </CDropdown>
                 <CDropdown variant="btn-group">
-                  <CDropdownToggle color="primary">Dropdown</CDropdownToggle>
+                  <CDropdownToggle color="primary">دراپ دون</CDropdownToggle>
                   <CDropdownMenu>
-                    <CDropdownItem href="#">Action</CDropdownItem>
-                    <CDropdownItem href="#">Another action</CDropdownItem>
-                    <CDropdownItem href="#">Something else here</CDropdownItem>
+                    <CDropdownItem href="#">متن تستی</CDropdownItem>
+                    <CDropdownItem href="#">متن تستی  </CDropdownItem>
+                    <CDropdownItem href="#">متن تستی    </CDropdownItem>
                     <CDropdownDivider />
-                    <CDropdownItem href="#">Separated link</CDropdownItem>
+                    <CDropdownItem href="#">متن تستی</CDropdownItem>
+                  </CDropdownMenu>
+                </CDropdown>
+                <CDropdown variant="btn-group">
+                  <CDropdownToggle color="primary">دراپ دون</CDropdownToggle>
+                  <CDropdownMenu>
+                    <CDropdownItem href="#">فعالیت </CDropdownItem>
+                    <CDropdownItem href="#">فعالیت دیگر</CDropdownItem>
+                    <CDropdownItem href="#">یک چیز دیگر اینجا</CDropdownItem>
+                    <CDropdownDivider />
+                    <CDropdownItem href="#">متن تستی</CDropdownItem>
                   </CDropdownMenu>
                 </CDropdown>
               </CButtonGroup>

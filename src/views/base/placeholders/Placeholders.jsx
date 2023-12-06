@@ -1,3 +1,5 @@
+// این یک ویو و یا کامپوننت سمت  سایدبر است برای صفحه بندی ببینید و لذت ببر
+
 import React from 'react'
 import {
   CButton,
@@ -25,9 +27,9 @@ const Placeholders = () => {
           </CCardHeader>
           <CCardBody>
             <p className="text-medium-emphasis small">
-              In the example below, we take a typical card component and recreate it with
-              placeholders applied to create a &#34;loading card&#34;. Size and proportions are the
-              same between the two.
+              در مثال زیر، یک جزء کارت معمولی را می گیریم و با آن دوباره ایجاد می کنیم
+              متغیرهایی که برای ایجاد یک &#34;کارت بارگیری&#34; اعمال شدند. اندازه و تناسب هستند
+              بین این دو یکسان
             </p>
             <DocsExample href="components/placeholder">
               <div className="d-flex justify-content-around p-3">
@@ -36,10 +38,10 @@ const Placeholders = () => {
                   <CCardBody>
                     <CCardTitle>Card title</CCardTitle>
                     <CCardText>
-                      Some quick example text to build on the card title and make up the bulk of the
-                      card&#39;s content.
+                      چند نمونه متن کوتاه برای ساختن عنوان کارت و تشکیل بخش عمده آن
+                      محتوای کارت.
                     </CCardText>
-                    <CButton href="#">Go somewhere</CButton>
+                    <CButton href="#">برو به جایی</CButton>
                   </CCardBody>
                 </CCard>
                 <CCard style={{ width: '18rem' }}>
@@ -87,10 +89,10 @@ const Placeholders = () => {
           </CCardHeader>
           <CCardBody>
             <p className="text-medium-emphasis small">
-              Create placeholders with the <code>&lt;CPlaceholder&gt;</code> component and a grid
-              column propx (e.g., <code>xs={6}</code>) to set the <code>width</code>. They can
-              replace the text inside an element or be added as a modifier class to an existing
-              component.
+              ایجاد متغیرهایی با مولفه <code>&lt;CPlaceholder&gt;</code> و یک شبکه
+              ستون propx (به عنوان مثال، <code>xs={6}</code>) برای تنظیم <code>عرض</code>. آنها می توانند
+              متن را در یک عنصر جایگزین کنید یا به عنوان یک کلاس اصلاح کننده به یک عنصر موجود اضافه شود
+              جزء.
             </p>
             <DocsExample href="components/placeholder">
               <p aria-hidden="true">
@@ -113,8 +115,8 @@ const Placeholders = () => {
           </CCardHeader>
           <CCardBody>
             <p className="text-medium-emphasis small">
-              You can change the <code>width</code> through grid column classes, width utilities, or
-              inline styles.
+              می‌توانید <code>عرض</code> را از طریق کلاس‌های ستون شبکه، ابزارهای عرض یا
+              سبک های درون خطی
             </p>
             <DocsExample href="components/placeholder#width">
               <CPlaceholder xs={6} />
@@ -129,8 +131,8 @@ const Placeholders = () => {
           </CCardHeader>
           <CCardBody>
             <p className="text-medium-emphasis small">
-              By default, the <code>&lt;CPlaceholder&gt;</code> uses <code>currentColor</code>. This
-              can be overridden with a custom color or utility class.
+              به طور پیش‌فرض، <code>&lt;CPlaceholder&gt;</code> از <code>currentColor</code> استفاده می‌کند. این
+              را می توان با یک رنگ سفارشی یا کلاس کاربردی لغو کرد.
             </p>
             <DocsExample href="components/placeholder#color">
               <CPlaceholder xs={12} />
@@ -152,9 +154,9 @@ const Placeholders = () => {
           </CCardHeader>
           <CCardBody>
             <p className="text-medium-emphasis small">
-              The size of <code>&lt;CPlaceholder&gt;</code>s are based on the typographic style of
-              the parent element. Customize them with <code>size</code> prop: <code>lg</code>,{' '}
-              <code>sm</code>, or <code>xs</code>.
+                اندازه <code>&lt;CPlaceholder&gt;</code>ها بر اساس سبک تایپوگرافی
+                عنصر والد آنها را با <code>size</code> سفارشی کنید: <code>lg</code>،{' '}
+                <code>sm</code> یا <code>xs</code>.
             </p>
             <DocsExample href="components/placeholder#sizing">
               <CPlaceholder xs={12} size="lg" />
@@ -170,9 +172,9 @@ const Placeholders = () => {
           </CCardHeader>
           <CCardBody>
             <p className="text-medium-emphasis small">
-              Animate placeholders with <code>animation=&#34;glow&#34;</code> or{' '}
-              <code>animation=&#34;wave&#34;</code> to better convey the perception of something
-              being <em>actively</em> loaded.
+              متغیرهای متحرک با <code>animation=&#34;glow&#34;</code> یا{' '}
+              <code>animation=&#34;wave&#34;</code> برای انتقال بهتر درک چیزی
+              <em>فعال</em> بارگیری می شود.
             </p>
             <DocsExample href="components/placeholder#animation">
               <CPlaceholder component="p" animation="glow">

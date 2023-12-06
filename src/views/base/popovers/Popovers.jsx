@@ -1,3 +1,4 @@
+//این یک صفحه برا یپاپ اور زاست که در ساید بار موجود می باشد
 import React from 'react'
 import { CButton, CCard, CCardBody, CCardHeader, CPopover, CRow, CCol } from '@coreui/react'
 import { DocsExample } from 'src/components'
@@ -13,12 +14,12 @@ const Popovers = () => {
           <CCardBody>
             <DocsExample href="components/popover">
               <CPopover
-                title="Popover title"
-                content="And here’s some amazing content. It’s very engaging. Right?"
-                placement="right"
+                title="تایتل پاپور"
+                content="این یک پاپاور  است نتسی و جالب"
+                placement="top"
               >
                 <CButton color="danger" size="lg">
-                  Click to toggle popover
+                  برای جابجایی popover کلیک کنید
                 </CButton>
               </CPopover>
             </DocsExample>
@@ -28,37 +29,32 @@ const Popovers = () => {
       <CCol xs={12}>
         <CCard className="mb-4">
           <CCardHeader>
-            <strong>React Popover</strong> <small>Four directions</small>
+            <strong>React Popover</strong> <small>چهار جهت</small>
           </CCardHeader>
           <CCardBody>
             <p className="text-medium-emphasis small">
-              Four options are available: top, right, bottom, and left aligned. Directions are
-              mirrored when using CoreUI for React in RTL.
+              چهار گزینه موجود است: تراز بالا، راست، پایین و چپ. جهت ها هستند
+              هنگام استفاده از CoreUI برای React در RTL منعکس می شود.
             </p>
             <DocsExample href="components/popover#four-directions">
+
               <CPopover
-                content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus."
-                placement="top"
+                  content="این یک پاپاور  است نتسی و جالب"
+                  placement="top"
               >
-                <CButton color="secondary">Popover on top</CButton>
+                <CButton color="secondary">پاپوور در راست</CButton>
               </CPopover>
               <CPopover
-                content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus."
-                placement="right"
-              >
-                <CButton color="secondary">Popover on right</CButton>
-              </CPopover>
-              <CPopover
-                content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus."
+                  content="این یک پاپاور  است نتسی و جالب"
                 placement="bottom"
               >
-                <CButton color="secondary">Popover on bottom</CButton>
+                <CButton color="secondary">پاپوور در پایین</CButton>
               </CPopover>
               <CPopover
-                content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus."
+                  content="این یک پاپاور  است نتسی و جالب"
                 placement="left"
               >
-                <CButton color="secondary">Popover on left</CButton>
+                <CButton color="secondary">پاپوور در چپ</CButton>
               </CPopover>
             </DocsExample>
           </CCardBody>

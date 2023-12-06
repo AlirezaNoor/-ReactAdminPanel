@@ -1,3 +1,4 @@
+// این بخش مربوط به مدیریت برد کرب بالا می باشد که مسیر حال حاضر کار بر را نمایش می دهید
 import React from 'react'
 import { useLocation } from 'react-router-dom'
 
@@ -33,7 +34,7 @@ const AppBreadcrumb = () => {
 
   return (
     <CBreadcrumb className="m-0 ms-2">
-      <CBreadcrumbItem href="/">Home</CBreadcrumbItem>
+      <CBreadcrumbItem href="/">خانه</CBreadcrumbItem>
       {breadcrumbs.map((breadcrumb, index) => {
         return (
           <CBreadcrumbItem
