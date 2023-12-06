@@ -29,69 +29,70 @@ const CustomStyles = () => {
     setValidated(true)
   }
   return (
-    <CForm
-      className="row g-3 needs-validation"
-      noValidate
-      validated={validated}
-      onSubmit={handleSubmit}
-    >
-      <CCol md={4}>
-        <CFormLabel htmlFor="validationCustom01">Email</CFormLabel>
-        <CFormInput type="text" id="validationCustom01" defaultValue="Mark" required />
-        <CFormFeedback valid>Looks good!</CFormFeedback>
-      </CCol>
-      <CCol md={4}>
-        <CFormLabel htmlFor="validationCustom02">Email</CFormLabel>
-        <CFormInput type="text" id="validationCustom02" defaultValue="Otto" required />
-        <CFormFeedback valid>Looks good!</CFormFeedback>
-      </CCol>
-      <CCol md={4}>
-        <CFormLabel htmlFor="validationCustomUsername">Username</CFormLabel>
-        <CInputGroup className="has-validation">
-          <CInputGroupText id="inputGroupPrepend">@</CInputGroupText>
-          <CFormInput
-            type="text"
-            id="validationCustomUsername"
-            defaultValue=""
-            aria-describedby="inputGroupPrepend"
-            required
+      <CForm
+          className="row g-3 needs-validation"
+          noValidate
+          validated={validated}
+          onSubmit={handleSubmit}
+      >
+        <CCol md={4}>
+          <CFormLabel htmlFor="validationCustom01">ایمیل</CFormLabel>
+          <CFormInput type="text" id="validationCustom01" defaultValue="Mark" required />
+          <CFormFeedback valid>خوب به نظر می‌آید!</CFormFeedback>
+        </CCol>
+        <CCol md={4}>
+          <CFormLabel htmlFor="validationCustom02">ایمیل</CFormLabel>
+          <CFormInput type="text" id="validationCustom02" defaultValue="Otto" required />
+          <CFormFeedback valid>خوب به نظر می‌آید!</CFormFeedback>
+        </CCol>
+        <CCol md={4}>
+          <CFormLabel htmlFor="validationCustomUsername">نام کاربری</CFormLabel>
+          <CInputGroup className="has-validation">
+            <CInputGroupText id="inputGroupPrepend">@</CInputGroupText>
+            <CFormInput
+                type="text"
+                id="validationCustomUsername"
+                defaultValue=""
+                aria-describedby="inputGroupPrepend"
+                required
+            />
+            <CFormFeedback invalid>لطفاً یک نام کاربری انتخاب کنید.</CFormFeedback>
+          </CInputGroup>
+        </CCol>
+        <CCol md={6}>
+          <CFormLabel htmlFor="validationCustom03">شهر</CFormLabel>
+          <CFormInput type="text" id="validationCustom03" required />
+          <CFormFeedback invalid>لطفاً یک شهر معتبر وارد کنید.</CFormFeedback>
+        </CCol>
+        <CCol md={3}>
+          <CFormLabel htmlFor="validationCustom04">شهر</CFormLabel>
+          <CFormSelect id="validationCustom04">
+            <option disabled>انتخاب کنید...</option>
+            <option>...</option>
+          </CFormSelect>
+          <CFormFeedback invalid>لطفاً یک شهر معتبر وارد کنید.</CFormFeedback>
+        </CCol>
+        <CCol md={3}>
+          <CFormLabel htmlFor="validationCustom05">شهر</CFormLabel>
+          <CFormInput type="text" id="validationCustom05" required />
+          <CFormFeedback invalid>لطفاً یک کد پستی معتبر وارد کنید.</CFormFeedback>
+        </CCol>
+        <CCol xs={12}>
+          <CFormCheck
+              type="checkbox"
+              id="invalidCheck"
+              label="موافقت با شرایط و ضوابط"
+              required
           />
-          <CFormFeedback invalid>Please choose a username.</CFormFeedback>
-        </CInputGroup>
-      </CCol>
-      <CCol md={6}>
-        <CFormLabel htmlFor="validationCustom03">City</CFormLabel>
-        <CFormInput type="text" id="validationCustom03" required />
-        <CFormFeedback invalid>Please provide a valid city.</CFormFeedback>
-      </CCol>
-      <CCol md={3}>
-        <CFormLabel htmlFor="validationCustom04">City</CFormLabel>
-        <CFormSelect id="validationCustom04">
-          <option disabled>Choose...</option>
-          <option>...</option>
-        </CFormSelect>
-        <CFormFeedback invalid>Please provide a valid city.</CFormFeedback>
-      </CCol>
-      <CCol md={3}>
-        <CFormLabel htmlFor="validationCustom05">City</CFormLabel>
-        <CFormInput type="text" id="validationCustom05" required />
-        <CFormFeedback invalid>Please provide a valid zip.</CFormFeedback>
-      </CCol>
-      <CCol xs={12}>
-        <CFormCheck
-          type="checkbox"
-          id="invalidCheck"
-          label="Agree to terms and conditions"
-          required
-        />
-        <CFormFeedback invalid>You must agree before submitting.</CFormFeedback>
-      </CCol>
-      <CCol xs={12}>
-        <CButton color="primary" type="submit">
-          Submit form
-        </CButton>
-      </CCol>
-    </CForm>
+          <CFormFeedback invalid>قبل از ارسال باید موافقت کنید.</CFormFeedback>
+        </CCol>
+        <CCol xs={12}>
+          <CButton color="primary" type="submit">
+            ارسال فرم
+          </CButton>
+        </CCol>
+      </CForm>
+
   )
 }
 
