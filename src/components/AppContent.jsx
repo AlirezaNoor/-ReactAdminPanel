@@ -1,3 +1,5 @@
+// محتوای صفحه اصلی که از طریق محتوای روتر تکمیل می شود
+//در اینجا مشخص می شود که اگر path به عنوان مثال '/' باشد چه چیز را نمایش بدهد
 import React, { Suspense } from 'react'
 import { Navigate, Route, Routes } from 'react-router-dom'
 import { CContainer, CSpinner } from '@coreui/react'

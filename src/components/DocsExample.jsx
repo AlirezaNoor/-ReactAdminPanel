@@ -1,3 +1,5 @@
+
+/// برای نویگیت شدت در صفحات وب می باشد در داکیومت های خودش
 import PropTypes from 'prop-types'
 import React from 'react'
 import { CNav, CNavItem, CNavLink, CTabContent, CTabPane } from '@coreui/react'

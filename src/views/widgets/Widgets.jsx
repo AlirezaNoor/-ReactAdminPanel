@@ -1,3 +1,4 @@
+///    ترکیب باقی ویچت ها در این صفحه هستش
 import React from 'react'
 import {
   CCard,

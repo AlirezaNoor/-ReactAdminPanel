@@ -1,5 +1,6 @@
+///برای همبگر منو بالای ساید بار  است و تحوه عملکرد ان را پیاده سازی می کند
 import { createStore } from 'redux'
-
+import { configureStore } from '@reduxjs/toolkit'
 const initialState = {
   sidebarShow: true,
 }
@@ -13,5 +14,5 @@ const changeState = (state = initialState, { type, ...rest }) => {
   }
 }
 
-const store = createStore(changeState)
+const store = configureStore({reducer:changeState})
 export default store

@@ -91,6 +91,11 @@ const _nav = [
       },
       {
         component: CNavItem,
+        name: 'جامبوترون',
+        to: '/base/Jumbotrons',
+      },
+      {
+        component: CNavItem,
         name: 'صفحه بندی',
         to: '/base/paginations',
       },
@@ -123,6 +128,11 @@ const _nav = [
         component: CNavItem,
         name: 'تولتیپ ها',
         to: '/base/tooltips',
+      },
+      {
+        component: CNavItem,
+        name: 'نوبار',
+        to: '/base/Navbars',
       },
     ],
   },

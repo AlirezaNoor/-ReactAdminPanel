@@ -1,3 +1,4 @@
+//صفحه بیرند ها در قسمت ساید بار ایکون ها
 import React from 'react'
 import { CCard, CCardBody, CCardHeader, CCol, CRow } from '@coreui/react'
 import CIcon from '@coreui/icons-react'
@@ -23,7 +24,7 @@ const CoreUIIcons = () => {
       <DocsCallout
         name="CoreUI Brand Icons"
         href="components/chart"
-        content="CoreUI Brand Icons. CoreUI Icons package is delivered with more than 1500 icons in multiple formats SVG, PNG, and Webfonts. CoreUI Icons are beautifully crafted symbols for common actions and items. You can use them in your digital products for web or mobile app."
+        Content="CoreUI Brand Icons. بسته CoreUI Icons با بیش از 1500 نماد در قالب های مختلف SVG، PNG و Webfonts ارائه می شود. نمادهای CoreUI نمادهایی هستند که به زیبایی برای اقدامات و موارد رایج ساخته شده اند. می توانید از آنها در محصولات دیجیتال خود برای وب یا استفاده کنید. اپلیکیشن موبایل."
       />
       <CCard className="mb-4">
         <CCardHeader>Brand Icons</CCardHeader>

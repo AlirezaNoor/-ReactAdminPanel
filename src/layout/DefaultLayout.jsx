@@ -1,3 +1,4 @@
+// این لای اوت دیفالت هستش برای نمایش همان طور که می بینید سه بخش اصلی سایت این داخل ایمپلیمت شده است
 import React from 'react'
 import { AppContent, AppSidebar, AppFooter, AppHeader } from '../components/index'
 
